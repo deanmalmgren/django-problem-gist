@@ -1,0 +1,1 @@
+This is a simple gist to illustrate the peculiar behavior with django 1.5 and DEBUG=False when running locally (and in production?...haven't gotten that far yet).
