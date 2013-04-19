@@ -1,0 +1,2 @@
+# use django 1.5. that's pretty much it
+Django==1.5
