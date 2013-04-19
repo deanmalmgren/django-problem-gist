@@ -7,6 +7,11 @@ this behavior exists in production.
 To see the problem in action, make sure you have django 1.5.1
 installed and run the following commands:
 
+    virtualenv --no-site-packages --setuptools env
+    virtualenv env 
+    ./env/bin/pip install -r REQUIREMENTS
+    source env/bin/activate
+    
     cd project/
     python manage.py runserver
     google-chrome http://localhost:8000 
